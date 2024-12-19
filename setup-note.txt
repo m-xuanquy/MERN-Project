@@ -1,0 +1,8 @@
+    npm init -y
+    npm install express mongoose dotenv
+    "type":"module" in package.json so can import 
+    add "dev" in "scripts" in package.json
+    npm install nodemon -D (dev dependency)
+    change "node" in "dev" to "nodemon"
+    the reason installing nodemon is whenever there's a change,
+it automatically restart for us, instead of killing the terminal
