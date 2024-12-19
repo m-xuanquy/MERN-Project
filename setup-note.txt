@@ -1,3 +1,4 @@
+backend:
     npm init -y
     npm install express mongoose dotenv
     "type":"module" in package.json so can import 
@@ -6,3 +7,14 @@
     change "node" in "dev" to "nodemon"
     the reason installing nodemon is whenever there's a change,
 it automatically restart for us, instead of killing the terminal
+
+frontend:
+    npm create vite@latest
+    React -> Javascript
+    npm install
+    install chakra ui
+        follow exact guide in https://www.chakra-ui.com/docs/get-started/frameworks/vite
+    npm run dev in /frontend
+    npm install react-router-dom
+    npm install react-icons
+    npm i zustand
